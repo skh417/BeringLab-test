@@ -1,7 +1,5 @@
-import Editor from "./Editor";
-
 export default class Cell {
-  getText(cellIndex) {
-    Editor.cells[cellIndex][0];
+  getText(cellIndex, newCells) {
+    return newCells.cells[cellIndex][0];
   }
 }
